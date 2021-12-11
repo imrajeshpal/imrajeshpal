@@ -1,3 +1,6 @@
+#include<vector>
+#include<algorithm>
+using namespace std;
 class Solution {
 public:
     vector<int> longestObstacleCourseAtEachPosition(vector<int>& obstacles) {
@@ -20,3 +23,7 @@ public:
         return ans;
     }
 };
+
+
+
+//working on second Approch
